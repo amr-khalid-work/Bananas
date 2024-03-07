@@ -7,6 +7,10 @@ html{
     box-sizing: border-box;
 }
 
+.container{
+    
+}
+
 body{
     line-height: 1;
     margin: 0;
@@ -16,14 +20,21 @@ body{
     text-align: center;
 }
 
+h1.percentageCalculatorH{
+    font-size: 70px;
+    padding: 50px;
+}
+
                         /* NVGTION BR v */
 lable.llogo{
-    text-align: center;
-    font-size: 70px;
-    padding-right: 160px;
+    font-size: 100px;
     color: white;
     font-family:'Single Day', 'Roboto', sans-serif, serif;
     text-shadow: 2px 2px darkorange;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
 }
 
 
@@ -111,6 +122,7 @@ ul.topnav li.dropmenu a:active{
     flex-wrap: wrap;
     align-items: center;
 }
+
 .row::after{
     display: table;
     clear: both;
@@ -142,8 +154,18 @@ h1.large{ font-family:'Single Day', 'Roboto', sans-serif, serif;
 
 input[type="text"]{
     font-size: 20px;
-    width: 400px;
     min-width: 100px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    border-style:hidden
+}
+
+ div.col-6 iframe.introvid{
+    margin: 3px;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
 }
                         /* FRM ^ */
 
@@ -179,7 +201,7 @@ input[type="text"]{
 }
 
 h1.threeboxsheader{
-    color: white;
+    color: white;8
     text-shadow: 2px 2px yellow;
     font size: 65px;
     background-size: 0px;
@@ -223,14 +245,16 @@ div.threeboxs p{
     color: white;
     text-align: center;
     margin: 15px;
+    text-shadow: 0 0 white;
 }
                         /* 3BXS ^ */
 
                         /* ARTCL v */
-div.article article p{
-    font-size: 35px;
-    padding: 20px;
-    text-align: left;text-shadow: none;
+div.container article p{
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: left;
+    text-shadow: 0 0 white;
     line-height: 110%;
 }
 
@@ -344,19 +368,18 @@ footer.foot div.row div.col-3 h1.ftr{
     color: white;
     text-shadow: 2px 2px darkorange;
     font-size: 35px;
+    text-align: left;
 }
 
 footer.foot ul{
     list-style: none;
     text-align: left;
-    padding-left: 0;
 }
 
 footer.foot ul li{
     color: white;
     font-size: 22px;
     line-height: 1.5;
-    padding-left: 159px;
 }
                         /* FOTR ^ */
 
